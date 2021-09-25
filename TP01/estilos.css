@@ -1,0 +1,14 @@
+h1 {
+    font-size: 40px;
+    font-family:"Brush Script MT";
+    margin: 6px auto 6px auto;
+}
+
+.tabla-contenido{
+    padding: 3px;
+}
+
+.td-contenido{
+    vertical-align: top;
+    padding: 6px;
+}
