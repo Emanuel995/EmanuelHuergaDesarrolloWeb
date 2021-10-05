@@ -1,0 +1,24 @@
+body{
+    width: 90%;
+    margin: 0 auto;
+    background-color: beige;
+    
+}
+.importante{
+    background-color: aquamarine;
+    text-align: center;
+}
+.col-3{
+    width: 31%;
+    float: left;
+    margin: 3px;
+    padding: 3px;
+    border: black 2px solid;
+}
+.formulario{
+    width: 100%;
+}
+.form-text{
+    float: left;
+    width: 30%;
+}
