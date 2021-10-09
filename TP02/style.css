@@ -1,24 +1,132 @@
 body{
     width: 90%;
-    margin: 0 auto;
-    background-color: beige;
-    
+    margin: 3px auto;
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 1.5em;
+
 }
-.importante{
-    background-color: aquamarine;
-    text-align: center;
-}
-.col-3{
-    width: 31%;
-    float: left;
-    margin: 3px;
-    padding: 3px;
-    border: black 2px solid;
-}
-.formulario{
+img{
     width: 100%;
 }
-.form-text{
-    float: left;
-    width: 30%;
+
+.enlace{
+    text-decoration: none;
+    margin: 3px;
+    color: black;
+    
+}
+
+.enlace:hover{
+    color: lightcoral;
+}
+
+.barra-titulo{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: flex-end;
+}
+
+.enlace-titulo{
+    margin-bottom: 2px;
+}
+
+.principal{
+    padding: 2.5em 0px;
+}
+
+h1{
+    font-size: 4.75em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 0;
+}
+h2{
+    font-size: 2.75em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 0;   
+}
+h3{
+    font-size: 1.75em;
+    font-variant-caps: all-petite-caps;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 0;
+}
+
+.texto-principal{
+    margin-right: 25em;
+    line-height: 1.7;
+    color: #333;
+    margin-bottom: 2em;
+}
+.boton-naranja{
+    text-decoration: none;
+    padding: 0.7em 1em 0.7em;
+    color: blanchedalmond;
+    background-color: #f74545;
+    font-weight: bold;
+    margin: 1em;
+}
+
+.boton-naranja:hover{
+    background-color:black;
+    cursor: pointer;
+}
+
+.contenido{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7em;
+    padding-top: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 2em;
+    flex-wrap: wrap;
+}
+.item-izquierda{
+    width: 45%;
+    margin-top: -4em;
+}
+.item-derecha{
+    width: 45%;
+    margin-top: 4em;
+}
+
+.boton-centrado{
+    display: flex;
+    justify-content:center;
+}
+
+a{
+    text-decoration: underline;
+    color: black;
+}
+.menu-desplazable{
+    overflow-y: hidden;
+    overflow-x: auto;
+    white-space: nowrap;
+    width: auto;
+    height: auto;
+    
+}
+.item-menu{
+    width: 900px;
+    height: auto;
+    margin: 0 10px 0 0;
+    padding: 0;
+    display: inline-block;
+    text-align: center;
+}
+.clientes{
+    margin: 3em auto;
+}
+.pie{
+    display:inline ;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.letra-chica{
+    font-size: 0.75em;
 }
